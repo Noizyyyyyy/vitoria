@@ -101,7 +101,7 @@ const playlist = [
         titulo: "Memória do Prazer",
         artista: "Jorge Vercillo",
         arquivo: "src/musica2.mp3",
-        imagem: "src/casal1.png",
+        imagem: "src/casal2.png",
         msgPreview: "Eu amo sentir esse anseio para casar logo com você...",
         msgCompleta: [
             "Eu amo sentir esse anseio para casar logo com você. Essa emoção e nervosismo pelo futuro, essa vontade de me tornar alguém bem-sucedido só para crescer ao seu lado.",
@@ -113,7 +113,7 @@ const playlist = [
         titulo: "Preciso Dizer Que Te Amo",
         artista: "Cazuza & Bebel Gilberto",
         arquivo: "src/musica3.mp3",
-        imagem: "src/casal1.png",
+        imagem: "src/casal3.png",
         msgPreview: "Amar você é encontrar abrigo no meio da tempestade...",
         msgCompleta: [
             "Amar você é encontrar abrigo no meio da tempestade. É saber que, mesmo quando tudo desaba lá fora, existe um lugar seguro no teu abraço. Com você, aprendi que o amor não precisa gritar para ser real; ele só precisa ser constante, verdadeiro e presente.",
@@ -126,7 +126,7 @@ const playlist = [
         titulo: "Levo Comigo",
         artista: "RESTART",
         arquivo: "src/musica4.mp3",
-        imagem: "src/casal1.png",
+        imagem: "src/casal4.png",
         msgPreview: "Amo você por tantos motivos que às vezes nem sei...",
         msgCompleta: [
             "Amo você por tantos motivos que às vezes nem sei por onde começar. Amo o jeito como seu sorriso ilumina qualquer dia nublado.",
@@ -139,7 +139,7 @@ const playlist = [
         titulo: "Vagalumes",
         artista: "Pollo",
         arquivo: "src/musica5.mp3",
-        imagem: "src/casal1.png",
+        imagem: "src/casal5.png",
         msgPreview: "Eii Princesa, sem pressa tá?",
         msgCompleta: [
             "Eii Princesa, sem pressa tá? Eu ainda vou te dar um buquê de flores, mas...",
@@ -214,4 +214,5 @@ closeVersiculo.onclick = () => modalVersiculo.style.display = "none";
 window.onclick = (event) => {
     if (event.target == modalVersiculo) modalVersiculo.style.display = "none";
 };
+
 
