@@ -213,5 +213,4 @@ closeVersiculo.onclick = () => modalVersiculo.style.display = "none";
 
 window.onclick = (event) => {
     if (event.target == modalVersiculo) modalVersiculo.style.display = "none";
-
 };
