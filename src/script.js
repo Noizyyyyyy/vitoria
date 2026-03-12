@@ -143,7 +143,7 @@ const playlist = [
         msgPreview: "Eii Princesa, sem pressa tá?",
         msgCompleta: [
             "Eii Princesa, sem pressa tá? Eu ainda vou te dar um buquê de flores, mas...",
-            " . ", " . ", " . ", " . ", " . ", "Olha para trás."
+            " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", " . ", "Olha para trás."
         ]
     }
 ];
@@ -214,5 +214,6 @@ closeVersiculo.onclick = () => modalVersiculo.style.display = "none";
 window.onclick = (event) => {
     if (event.target == modalVersiculo) modalVersiculo.style.display = "none";
 };
+
 
 
